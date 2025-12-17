@@ -1,144 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Villa Napoli | Italian Fine Dining</title>
-
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villa Napoli | Italian Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-<div class="container">
-<a class="navbar-brand" href="#">Villa Napoli</a>
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navMenu">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
-<li class="nav-item"><a class="nav-link" href="#starters">Starters</a></li>
-<li class="nav-item"><a class="nav-link" href="#pizza">Pizza</a></li>
-<li class="nav-item"><a class="nav-link" href="#pasta">Pasta</a></li>
-<li class="nav-item"><a class="nav-link" href="#desserts">Desserts</a></li>
-<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
+  <div class="container">
+    <a class="navbar-brand" href="#">Villa Napoli</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-<!-- 1. HOME -->
-<section id="home" class="hero">
-<div class="hero-content text-center">
-<h1>Villa Napoli</h1>
-<p>Authentic Italian Fine Dining Experience</p>
-<a href="#starters" class="btn btn-outline-light">View Menu</a>
-</div>
+<!-- 1. Hero -->
+<section id="home" class="hero text-center">
+  <div class="hero-content">
+    <h1>Villa Napoli</h1>
+    <p>Authentic Italian Fine Dining Experience</p>
+    <a href="#menu" class="btn btn-outline-light btn-lg">View Menu</a>
+  </div>
 </section>
 
-
-<!-- 2. ABOUT -->
-<section id="about" class="section">
-<div class="container text-center">
-<h2>About Us</h2>
-<p>Villa Napoli is a luxury Italian restaurant inspired by the culinary traditions of Naples, offering handcrafted dishes made with premium ingredients.</p>
-</div>
+<!-- 2. About -->
+<section id="about" class="section bg-light text-center">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Villa Napoli offers premium Italian cuisine with a cozy and elegant atmosphere, inspired by the culinary traditions of Naples.</p>
+  </div>
 </section>
 
-<!-- 3. STORY -->
-<section id="story" class="section bg-light">
-<div class="container text-center">
-<h2>Our Story</h2>
-<p>Founded by Italian chefs, Villa Napoli blends classic recipes with modern elegance, creating unforgettable dining moments.</p>
-</div>
+<!-- 3. Story -->
+<section id="story" class="section text-center">
+  <div class="container">
+    <h2>Our Story</h2>
+    <p>Founded by passionate Italian chefs, Villa Napoli combines authentic recipes with modern dining elegance for unforgettable experiences.</p>
+  </div>
 </section>
 
+<!-- 4. Menu -->
+<section id="menu" class="section bg-light">
+  <div class="container">
+    <h2 class="text-center">Menu</h2>
 
-<!-- 4. STARTERS -->
-<section id="starters" class="section">
-<div class="container">
-<h2 class="text-center">Antipasti</h2>
-<div class="row mt-4">
-<div class="col-md-4 menu-card">Bruschetta al Pomodoro</div>
-<div class="col-md-4 menu-card">Caprese Salad</div>
-<div class="col-md-4 menu-card">Garlic Bread with Herbs</div>
-</div>
-</div>
+    <!-- Starters -->
+    <h4 class="mt-4">Starters</h4>
+    <div class="row mt-3">
+      <div class="col-md-4"><div class="menu-card"><h5>🥖 Bruschetta</h5><p>Grilled bread with tomatoes & basil</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🧀 Caprese Salad</h5><p>Fresh mozzarella & tomatoes</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍞 Garlic Bread</h5><p>Oven-baked with herbs</p></div></div>
+    </div>
+
+    <!-- Pizza -->
+    <h4 class="mt-4">Pizza</h4>
+    <div class="row mt-3">
+      <div class="col-md-4"><div class="menu-card"><img src="images/pizza.jpg" class="img-fluid rounded mb-2"><h5>🍕 Margherita</h5><p>Tomatoes, mozzarella & basil</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍕 Quattro Formaggi</h5><p>Four cheese blend</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍕 Pepperoni</h5><p>Classic tomato & cheese</p></div></div>
+    </div>
+
+    <!-- Pasta -->
+    <h4 class="mt-4">Pasta</h4>
+    <div class="row mt-3">
+      <div class="col-md-4"><div class="menu-card"><img src="images/pasta.jpg" class="img-fluid rounded mb-2"><h5>🍝 Pasta Alfredo</h5><p>Creamy parmesan sauce</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍝 Carbonara</h5><p>Classic Roman pasta</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍝 Mushroom Risotto</h5><p>Creamy mushroom risotto</p></div></div>
+    </div>
+
+    <!-- Desserts -->
+    <h4 class="mt-4">Desserts</h4>
+    <div class="row mt-3">
+      <div class="col-md-4"><div class="menu-card"><img src="images/desserts.jpg" class="img-fluid rounded mb-2"><h5>🍰 Tiramisu</h5><p>Espresso-soaked ladyfingers</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>🍮 Panna Cotta</h5><p>Italian custard with berries</p></div></div>
+      <div class="col-md-4"><div class="menu-card"><h5>☕ Italian Coffee</h5><p>Espresso, cappuccino & latte</p></div></div>
+    </div>
+  </div>
 </section>
 
-<!-- 5. PIZZA -->
-<section id="pizza" class="section bg-light">
-<div class="container">
-<h2 class="text-center">Wood-Fired Pizza</h2>
-<div class="row mt-4">
-<div class="col-md-4 menu-card">Margherita</div>
-<div class="col-md-4 menu-card">Quattro Formaggi</div>
-<div class="col-md-4 menu-card">Pepperoni</div>
-</div>
-</div>
+<!-- 5. Services -->
+<section id="services" class="section bg-light text-center">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p>Dine-In • Takeaway • Delivery • Private Events</p>
+  </div>
 </section>
 
-
-<!-- 6. PASTA -->
-<section id="pasta" class="section">
-<div class="container">
-<h2 class="text-center">Pasta & Risotto</h2>
-<div class="row mt-4">
-<div class="col-md-4 menu-card">Pasta Alfredo</div>
-<div class="col-md-4 menu-card">Spaghetti Carbonara</div>
-<div class="col-md-4 menu-card">Mushroom Risotto</div>
-</div>
-</div>
+<!-- 6. Gallery -->
+<section id="gallery" class="section text-center">
+  <div class="container">
+    <h2>Gallery</h2>
+    <div class="row mt-4">
+      <div class="col-md-4"><img src="images/interior1.jpg" class="img-fluid rounded mb-3"></div>
+      <div class="col-md-4"><img src="images/interior2.jpg" class="img-fluid rounded mb-3"></div>
+      <div class="col-md-4"><img src="images/pizza.jpg" class="img-fluid rounded mb-3"></div>
+      <div class="col-md-4"><img src="images/pasta.jpg" class="img-fluid rounded mb-3"></div>
+      <div class="col-md-4"><img src="images/desserts.jpg" class="img-fluid rounded mb-3"></div>
+      <div class="col-md-4"><img src="images/dining.jpg" class="img-fluid rounded mb-3"></div>
+    </div>
+  </div>
 </section>
 
-<!-- 7. DESSERTS -->
-<section id="desserts" class="section bg-light">
-<div class="container">
-<h2 class="text-center">Desserts & Beverages</h2>
-<div class="row mt-4">
-<div class="col-md-4 menu-card">Tiramisu</div>
-<div class="col-md-4 menu-card">Panna Cotta</div>
-<div class="col-md-4 menu-card">Italian Coffee & Wine</div>
-</div>
-</div>
+<!-- 7. Contact -->
+<section id="contact" class="section bg-dark text-light text-center">
+  <div class="container">
+    <h2>Contact & Reservations</h2>
+    <p>Hyderabad | +91 90000 00000 | reservations@villanapoli.com</p>
+  </div>
 </section>
 
-
-<!-- 8. SERVICES -->
-<section id="services" class="section">
-<div class="container text-center">
-<h2>Our Services</h2>
-<p>Dine-In • Takeaway • Home Delivery • Private Events</p>
-</div>
-</section>
-
-<!-- 9. GALLERY -->
-<section id="gallery" class="section bg-light">
-<div class="container text-center">
-<h2>Gallery</h2>
-<p>Elegant interiors and authentic Italian cuisine</p>
-</div>
-</section>
-
-
-<!-- 10. CONTACT -->
-<section id="contact" class="section dark">
-<div class="container text-center">
-<h2>Contact & Reservations</h2>
-<p>Hyderabad | +91 90000 00000 | reservations@villanapoli.com</p>
-</div>
-</section>
-
-<footer class="text-center">© 2025 Villa Napoli</footer>
-
+<footer class="text-center py-3">© 2025 Villa Napoli</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
