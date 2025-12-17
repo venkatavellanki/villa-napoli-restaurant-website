@@ -2,8 +2,7 @@
 
 :root {
   --primary: #d91c1c; /* Italian Red */
-  --secondary: #ffffff;
-  --accent: #1b5e20; /* Italian Green */
+  --accent: #1b5e20;  /* Italian Green */
   --light: #ffffff;
   --dark: #1c1c1c;
 }
@@ -13,7 +12,7 @@ body { font-family: 'Poppins', sans-serif; padding-top: 70px; background: #fff8f
 .navbar { background: linear-gradient(90deg, var(--primary), #b01b1b); }
 .navbar-brand { font-family: 'Playfair Display', serif; font-size: 1.6rem; }
 
-.hero { height: 100vh; background: url('images/interior1.jpg') center/cover no-repeat; display: flex; align-items: center; justify-content: center; color: var(--light); text-align: center; }
+.hero { height: 100vh; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('') center/cover no-repeat; display: flex; align-items: center; justify-content: center; color: var(--light); text-align: center; }
 .hero h1 { font-family: 'Playfair Display', serif; font-size: 4rem; margin-bottom: 15px; }
 .hero p { font-size: 1.2rem; letter-spacing: 1px; }
 
@@ -22,7 +21,7 @@ body { font-family: 'Poppins', sans-serif; padding-top: 70px; background: #fff8f
 
 .menu-card { background: rgba(255,255,255,0.95); padding: 25px; margin: 15px; text-align: center; border-radius: 15px; box-shadow: 0 15px 30px rgba(0,0,0,0.12); transition: all 0.3s ease; }
 .menu-card h5 { font-family: 'Playfair Display', serif; color: var(--primary); margin-bottom: 10px; }
-.menu-card p { color: #444; font-size: 0.95rem; }
+
 .menu-card:hover { transform: translateY(-8px); background: linear-gradient(180deg, #fff5ee, #ffffff); }
 
 .bg-light { background: #fffaf3 !important; }
@@ -30,5 +29,22 @@ body { font-family: 'Poppins', sans-serif; padding-top: 70px; background: #fff8f
 .bg-green { background: var(--accent) !important; }
 .text-accent { color: var(--accent); }
 
-footer { background: #1c1c1c; color: #eee; padding: 25px 0; font-size: 0.9rem; }
-img { width: 100%; height: auto; }
+.gallery-card {
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: #333;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+footer { background: var(--dark); color: #eee; padding: 25px 0; font-size: 0.9rem; }
