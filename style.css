@@ -1,57 +1,51 @@
 body {
   font-family: 'Poppins', sans-serif;
   padding-top: 70px;
-  background: #111;
-  color: #eee;
+  margin: 0;
 }
 
 .navbar {
   background: linear-gradient(90deg, #b11226, #1b5e20);
 }
 
-.hero {
-  height: 100vh;
-  background: url('images/interior1.jpg') center/cover no-repeat;
-}
-
-.hero-overlay {
-  background: rgba(0,0,0,0.75);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .section {
-  padding: 90px 20px;
+  padding: 100px 20px;
 }
 
-.dark-section {
+.hero {
+  background: #000;
+  color: #fff;
+}
+
+.dark {
   background: #111;
+  color: #eee;
 }
 
-.light-section {
+.light {
   background: #fff;
   color: #111;
 }
 
-.menu-list {
-  max-width: 800px;
-  margin: auto;
-  list-style: none;
-  font-size: 1.05rem;
+h1, h2 {
+  font-family: 'Playfair Display', serif;
 }
 
-.menu-list li {
-  padding: 12px 0;
-  border-bottom: 1px solid #ccc;
+.menu-box {
+  max-width: 700px;
+  margin: 40px auto 0;
+  background: rgba(0,0,0,0.05);
+  padding: 30px;
+  border-radius: 12px;
 }
 
-.gallery-img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 15px;
-  margin-bottom: 20px;
+.dark .menu-box {
+  background: #1c1c1c;
+}
+
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 25px;
 }
