@@ -5,162 +5,150 @@
   <title>Villa Napoli | Italian Restaurant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top custom-nav">
   <div class="container">
-    <a class="navbar-brand" href="#home">Villa Napoli</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+    <a class="navbar-brand" href="#home">🍝 Villa Napoli</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="nav">
+
+    <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
-        <li class="nav-item"><a class="nav-link" href="#starters">Starters</a></li>
-        <li class="nav-item"><a class="nav-link" href="#pizza">Pizza</a></li>
-        <li class="nav-item"><a class="nav-link" href="#pasta">Pasta</a></li>
-        <li class="nav-item"><a class="nav-link" href="#desserts">Desserts</a></li>
-        <li class="nav-item"><a class="nav-link" href="#drinks">Drinks</a></li>
-        <li class="nav-item"><a class="nav-link" href="#specials">Specials</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#home">🏠 Home</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#about">ℹ️ About</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#story">📖 Story</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#starters">🥖 Starters</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#pizza">🍕 Pizza</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#pasta">🍝 Pasta</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#desserts">🍰 Desserts</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#drinks">🍷 Drinks</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#specials">⭐ Specials</a></li>
+        <li class="nav-item"><a class="nav-link tab" href="#contact">📞 Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- 1 HOME -->
-<section id="home" class="section hero">
-  <div class="container text-center">
-    <h1>Villa Napoli</h1>
-    <p class="subtitle">Authentic Italian Restaurant</p>
-    <p class="tagline">Traditional Recipes • Refined Dining • Italian Heritage</p>
-  </div>
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1>Villa Napoli 🇮🇹</h1>
+  <p class="subtitle">Authentic Italian Cuisine • Fine Dining • Warm Hospitality</p>
+  <p class="tagline">Bringing the soul of Naples to your table 🍷</p>
 </section>
 
-<!-- 2 ABOUT -->
+<!-- ABOUT -->
 <section id="about" class="section light">
-  <div class="container narrow text-center">
-    <h2>About Us</h2>
-    <div class="divider"></div>
-    <p>
-      Villa Napoli is a fine-dining Italian restaurant offering authentic
-      flavors inspired by Naples. We focus on quality ingredients,
-      classic techniques, and exceptional hospitality.
-    </p>
-  </div>
+  <h2>About Us</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Villa Napoli is a premium Italian restaurant offering authentic flavors inspired by traditional
+    Neapolitan kitchens. From handcrafted pizzas to elegant desserts, we blend tradition with modern dining.
+  </p>
 </section>
 
-<!-- 3 STORY -->
+<!-- STORY -->
 <section id="story" class="section dark">
-  <div class="container narrow text-center">
-    <h2>Our Story</h2>
-    <div class="divider light"></div>
-    <p>
-      Founded by passionate chefs, Villa Napoli was created to bring
-      traditional Italian cuisine into a modern, elegant dining experience.
-    </p>
-  </div>
+  <h2>Our Story</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Founded with passion for Italian culinary heritage 🇮🇹, Villa Napoli celebrates recipes passed through generations.
+    Each dish reflects our love for simplicity, quality ingredients, and heartfelt hospitality.
+  </p>
 </section>
 
-<!-- 4 STARTERS -->
+<!-- STARTERS -->
 <section id="starters" class="section light">
-  <div class="container">
-    <h2 class="section-title">Starters (Antipasti)</h2>
-    <div class="menu-box">
-      <p><strong>Bruschetta</strong> – Grilled bread topped with tomatoes, basil, and olive oil.</p>
-      <p><strong>Caprese Salad</strong> – Fresh mozzarella, ripe tomatoes, and basil.</p>
-      <p><strong>Garlic Bread</strong> – Oven-baked bread infused with herbs and butter.</p>
-    </div>
+  <h2>🥖 Antipasti (Starters)</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🥖 <strong>Bruschetta</strong> – Grilled bread topped with fresh tomatoes, basil, and olive oil.</p>
+    <p>🧀 <strong>Caprese Salad</strong> – Creamy mozzarella, ripe tomatoes, and basil drizzle.</p>
+    <p>🍞 <strong>Garlic Bread</strong> – Oven-baked bread infused with garlic butter and herbs.</p>
   </div>
 </section>
 
-<!-- 5 PIZZA -->
+<!-- PIZZA -->
 <section id="pizza" class="section dark">
-  <div class="container">
-    <h2 class="section-title">Pizza</h2>
-    <div class="menu-box">
-      <p><strong>Margherita</strong> – Tomato sauce, mozzarella, and fresh basil.</p>
-      <p><strong>Quattro Formaggi</strong> – A blend of four premium Italian cheeses.</p>
-      <p><strong>Pepperoni</strong> – Classic pizza topped with premium pepperoni.</p>
-    </div>
+  <h2>🍕 Wood-Fired Pizza</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🍕 <strong>Margherita</strong> – Tomato sauce, mozzarella, basil, and olive oil.</p>
+    <p>🧀 <strong>Quattro Formaggi</strong> – A rich blend of four Italian cheeses.</p>
+    <p>🥓 <strong>Pepperoni</strong> – Spicy pepperoni layered over melted mozzarella.</p>
   </div>
 </section>
 
-<!-- 6 PASTA -->
+<!-- PASTA -->
 <section id="pasta" class="section light">
-  <div class="container">
-    <h2 class="section-title">Pasta</h2>
-    <div class="menu-box">
-      <p><strong>Pasta Alfredo</strong> – Creamy parmesan sauce with garlic.</p>
-      <p><strong>Carbonara</strong> – Eggs, pecorino cheese, and pancetta.</p>
-      <p><strong>Mushroom Risotto</strong> – Arborio rice cooked with mushrooms and herbs.</p>
-    </div>
+  <h2>🍝 Pasta & Risotto</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🍝 <strong>Pasta Alfredo</strong> – Creamy parmesan sauce with garlic.</p>
+    <p>🥓 <strong>Carbonara</strong> – Traditional Roman pasta with eggs, cheese, and pancetta.</p>
+    <p>🍄 <strong>Mushroom Risotto</strong> – Slow-cooked rice with wild mushrooms.</p>
   </div>
 </section>
 
-<!-- 7 DESSERTS -->
+<!-- DESSERTS -->
 <section id="desserts" class="section dark">
-  <div class="container">
-    <h2 class="section-title">Desserts</h2>
-    <div class="menu-box">
-      <p><strong>Tiramisu</strong> – Espresso-soaked layers with mascarpone cream.</p>
-      <p><strong>Panna Cotta</strong> – Smooth vanilla cream dessert.</p>
-      <p><strong>Chocolate Lava Cake</strong> – Warm cake with molten chocolate center.</p>
-    </div>
+  <h2>🍰 Desserts</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🍰 <strong>Tiramisu</strong> – Espresso-soaked layers with mascarpone cream.</p>
+    <p>🍮 <strong>Panna Cotta</strong> – Silky vanilla custard with fruit glaze.</p>
+    <p>☕ <strong>Italian Coffee</strong> – Rich espresso brewed the Italian way.</p>
   </div>
 </section>
 
-<!-- 8 DRINKS -->
+<!-- DRINKS -->
 <section id="drinks" class="section light">
-  <div class="container">
-    <h2 class="section-title">Beverages & Drinks</h2>
-    <div class="menu-box">
-      <p><strong>Italian Wines</strong> – Curated red and white wine selections.</p>
-      <p><strong>Cocktails</strong> – Handcrafted signature beverages.</p>
-      <p><strong>Soft Drinks</strong> – Refreshing non-alcoholic options.</p>
-    </div>
+  <h2>🍷 Beverages & Drinks</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🍷 <strong>Red Wine</strong> – Selected Italian vineyard classics.</p>
+    <p>🍸 <strong>Cocktails</strong> – Handcrafted signature mixes.</p>
+    <p>🥤 <strong>Soft Drinks</strong> – Refreshing non-alcoholic beverages.</p>
   </div>
 </section>
 
-<!-- 9 SPECIALS -->
+<!-- SPECIALS -->
 <section id="specials" class="section dark">
-  <div class="container">
-    <h2 class="section-title">Chef’s Specials</h2>
-    <div class="menu-box">
-      <p><strong>Truffle Pizza</strong> – Gourmet pizza with truffle oil.</p>
-      <p><strong>Lobster Ravioli</strong> – Handmade ravioli with creamy sauce.</p>
-      <p><strong>Seasonal Dessert</strong> – Chef’s signature seasonal creation.</p>
-    </div>
+  <h2>⭐ Chef’s Specials</h2>
+  <div class="divider"></div>
+  <div class="menu-box">
+    <p>🍕 <strong>Truffle Pizza</strong> – Gourmet truffle oil with mushrooms.</p>
+    <p>🍝 <strong>Lobster Ravioli</strong> – Stuffed pasta in butter sauce.</p>
+    <p>🍫 <strong>Chocolate Lava Cake</strong> – Warm molten chocolate dessert.</p>
   </div>
 </section>
 
-<!-- 10 CONTACT -->
+<!-- CONTACT -->
 <section id="contact" class="section light">
-  <div class="container narrow text-center">
-    <h2>Contact & Reservations</h2>
-    <div class="divider"></div>
-    <p>Hyderabad, India</p>
-    <p>+91 90000 00000</p>
-    <p>reservations@villanapoli.com</p>
-  </div>
+  <h2>📞 Contact & Reservations</h2>
+  <div class="divider"></div>
+  <p class="content">
+    📍 Hyderabad, India <br>
+    📞 +91 90000 00000 <br>
+    📧 reservations@villanapoli.com <br><br>
+    Open daily from 11 AM – 11 PM 🍽️
+  </p>
 </section>
 
 <footer>
-  © 2025 Villa Napoli • Italian Restaurant
+  © 2025 Villa Napoli 🇮🇹 | Crafted with Passion & Flavor
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
