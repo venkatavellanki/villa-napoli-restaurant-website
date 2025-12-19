@@ -1,51 +1,162 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  padding-top: 70px;
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Villa Napoli | Italian Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.navbar {
-  background: linear-gradient(90deg, #b11226, #1b5e20);
-}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
-.section {
-  padding: 100px 20px;
-}
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-.hero {
-  background: #000;
-  color: #fff;
-}
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.dark {
-  background: #111;
-  color: #eee;
-}
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">🍝 Villa Napoli</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+        <li class="nav-item"><a class="nav-link" href="#starters">Starters</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pizza">Pizza</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pasta">Pasta</a></li>
+        <li class="nav-item"><a class="nav-link" href="#desserts">Desserts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#drinks">Drinks</a></li>
+        <li class="nav-item"><a class="nav-link" href="#specials">Specials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-.light {
-  background: #fff;
-  color: #111;
-}
+<!-- 1. HOME -->
+<section id="home" class="section hero">
+  <div class="container text-center">
+    <h1>Villa Napoli</h1>
+    <p class="tagline">🇮🇹 Authentic Italian Cuisine • Crafted with Passion</p>
+    <p class="sub">Fine dining inspired by Naples, served with elegance.</p>
+  </div>
+</section>
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-}
+<!-- 2. ABOUT -->
+<section id="about" class="section dark">
+  <div class="container text-center">
+    <h2>🍷 About Villa Napoli</h2>
+    <p>
+      Villa Napoli is a premium Italian restaurant delivering authentic flavors,
+      traditional recipes, and a modern dining experience rooted in Italian heritage.
+    </p>
+  </div>
+</section>
 
-.menu-box {
-  max-width: 700px;
-  margin: 40px auto 0;
-  background: rgba(0,0,0,0.05);
-  padding: 30px;
-  border-radius: 12px;
-}
+<!-- 3. STORY -->
+<section id="story" class="section light">
+  <div class="container text-center">
+    <h2>📖 Our Story</h2>
+    <p>
+      Founded by culinary artisans, Villa Napoli was born from a love for Italy’s
+      rich food culture — bringing timeless recipes into a refined contemporary space.
+    </p>
+  </div>
+</section>
 
-.dark .menu-box {
-  background: #1c1c1c;
-}
+<!-- 4. STARTERS -->
+<section id="starters" class="section dark">
+  <div class="container">
+    <h2 class="text-center">🥖 Starters (Antipasti)</h2>
+    <div class="menu-box">
+      <p>🥖 <strong>Bruschetta</strong> – Grilled bread topped with tomatoes, basil, garlic & olive oil.</p>
+      <p>🧀 <strong>Caprese Salad</strong> – Fresh mozzarella, ripe tomatoes & balsamic glaze.</p>
+      <p>🍞 <strong>Garlic Bread</strong> – Oven-baked bread infused with herbs & butter.</p>
+    </div>
+  </div>
+</section>
 
-footer {
-  background: #000;
-  color: #aaa;
-  text-align: center;
-  padding: 25px;
-}
+<!-- 5. PIZZA -->
+<section id="pizza" class="section light">
+  <div class="container">
+    <h2 class="text-center">🍕 Pizza</h2>
+    <div class="menu-box">
+      <p>🍕 <strong>Margherita</strong> – Tomato sauce, mozzarella & fresh basil.</p>
+      <p>🧀 <strong>Quattro Formaggi</strong> – A rich blend of four Italian cheeses.</p>
+      <p>🔥 <strong>Pepperoni</strong> – Classic favorite with premium pepperoni slices.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. PASTA -->
+<section id="pasta" class="section dark">
+  <div class="container">
+    <h2 class="text-center">🍝 Pasta</h2>
+    <div class="menu-box">
+      <p>🥛 <strong>Pasta Alfredo</strong> – Creamy parmesan sauce with garlic.</p>
+      <p>🥓 <strong>Carbonara</strong> – Eggs, pecorino cheese & pancetta.</p>
+      <p>🍄 <strong>Mushroom Risotto</strong> – Slow-cooked arborio rice with herbs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7. DESSERTS -->
+<section id="desserts" class="section light">
+  <div class="container">
+    <h2 class="text-center">🍰 Desserts</h2>
+    <div class="menu-box">
+      <p>☕ <strong>Tiramisu</strong> – Espresso-soaked layers with mascarpone.</p>
+      <p>🍮 <strong>Panna Cotta</strong> – Silky vanilla cream dessert.</p>
+      <p>🍫 <strong>Chocolate Lava Cake</strong> – Warm cake with molten center.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8. DRINKS -->
+<section id="drinks" class="section dark">
+  <div class="container">
+    <h2 class="text-center">🍷 Beverages & Drinks</h2>
+    <div class="menu-box">
+      <p>🍷 <strong>Red Wine</strong> – Curated Italian selections.</p>
+      <p>🍸 <strong>Cocktails</strong> – Handcrafted premium blends.</p>
+      <p>🥤 <strong>Soft Drinks</strong> – Refreshing non-alcoholic beverages.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 9. SPECIALS -->
+<section id="specials" class="section light">
+  <div class="container">
+    <h2 class="text-center">👨‍🍳 Chef’s Specials</h2>
+    <div class="menu-box">
+      <p>🍕 <strong>Truffle Pizza</strong> – Gourmet pizza with truffle oil.</p>
+      <p>🦞 <strong>Lobster Ravioli</strong> – Handmade ravioli with creamy sauce.</p>
+      <p>🍰 <strong>Signature Dessert</strong> – Seasonal chef-crafted delight.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. CONTACT -->
+<section id="contact" class="section dark">
+  <div class="container text-center">
+    <h2>📍 Contact & Reservations</h2>
+    <p>📞 +91 90000 00000</p>
+    <p>📧 reservations@villanapoli.com</p>
+    <p>📍 Hyderabad, India</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Villa Napoli • Crafted with ❤️ in Italy
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
